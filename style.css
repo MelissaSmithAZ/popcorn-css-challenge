@@ -8,6 +8,7 @@ Main background - #D4A76A*/
 body {
     margin: 0;
 }
+/* main toolbar */
 .toolBar {
     display: flex;
     align-items: flex-start;
@@ -17,22 +18,22 @@ body {
 
 
 }
-/* header color */
+/* header color size in toolbar*/
 .h1Color {
     color: #553100;
-    padding: 15px;
+    padding: 5px 35px;
     font-size: 25;
-    /* align-self: center; */
     font-weight: bold;
 }
+/* main menue in toolbar */
 .menue {
     margin-left: auto;
     align-self: center;
     color: #805215;
-    padding: 20px;
-    /* align-content: flex-end; */
+    padding: 15px 20px;
 
 }
+/* button style in top toolbar */
 .button {
     background-color: #805215;
     color:white;
@@ -44,31 +45,36 @@ body {
     font-weight: bold;
     
 }
+/* main body style */
 .bodyBox {
     background-color: #D4A76A;
     height: 550px;
+    padding: 45px
     
 }
+/* main flex set up for body */
 .main-box {
     display: flex;
     flex-grow: auto;
     flex-shrink: auto;
-    padding: 5px 5px;
+    padding: 10px 10px;
 }
+/* sub boxes in body */
 .sub-box {
     flex:1;
     background-color: white;
     margin: 35px;
     text-align: left;
     box-shadow: 0 0 20px rgba(20, 20, 20, 20.19);
-    padding: 15px; 
+    padding: 2px 20px;
+    margin: 10px 55px; 
 }
+/* button style for center boxes */
 .body-button {
     background-color: #805215;
     display:block;
     width: 100%;
     color: white;
-    /* width: 155px; */
     height: 45px;
     text-align: center;
     font-size: 15px;
@@ -76,22 +82,23 @@ body {
     border: 1.5px solid black;
     
 }
-
+/* footer style */
 .ipsum {
     flex:1;
     background-color: white;
     margin: 20px;
     box-shadow: 0 0 20px rgba(20, 20, 20, 20.19);
     padding:5px 15px;
-
-    
 }
+/* text style */
 .text-center {
     text-align: center;
 }
+/* text style */
 .left-align {
     text-align:left;
 }
+/* footer button */
 .footer-button {
     background-color: #805215;
     /* width: 775px; */
